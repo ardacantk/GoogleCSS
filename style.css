@@ -1,0 +1,130 @@
+a {
+    color: black;
+    text-decoration: none;
+}
+
+div {
+    display: block;
+}
+
+body, input, button {
+    font-size: 14px;
+    font-family: arial,sans-serif;
+    color: #202124;
+}
+
+/*Navbar Start*/
+.header {
+    width: auto;    
+    height: 50px;
+}
+
+.leftItemNav{
+    float: left;
+    margin-left: 20px;
+}
+
+.leftItemNav > a {
+    margin-right: 15px;
+}
+
+.rightItemNav{
+    float: right;
+    margin-right: 20px;
+}
+
+.rightItemNav > a, button {
+    margin-left: 15px;
+}
+
+.signIn{
+    background-color: cornflowerblue;
+    color: white;
+    border: none;
+    width: 60px;
+    height: 30px;
+}
+/*Google Logo Start*/
+.logo {
+    display: block;
+    text-align: center;
+    margin-top: 200px;
+    margin-bottom: 15px;
+}
+
+img {
+    text-align: center;
+}
+
+/*Search Start*/
+.search {
+    text-align: center;
+    width: auto;
+    height: 44px;
+    margin-bottom: 15px;
+
+}
+
+.searchInput{
+    height: 34px;
+    border: 1px solid #dfe1e5;
+    box-shadow: none;
+    border-radius: 24px;
+    width: 600px;
+}
+
+/*Buttons Start*/
+.buttons {
+    text-align: center;
+    height: 300px;
+}
+
+.googleBtn {
+    margin-right: 3px;
+}
+
+.luckBtn {
+    margin-left: 3px;
+}
+.googleBtn, .luckBtn {
+    border: none;
+    margin-top: 10px;
+    height: 30px;
+    width: 130px;
+}
+
+
+/*Footer Start*/
+footer{
+    bottom: 0;
+    width: auto;
+    height: 50px;
+    background-color: #dfe1e5;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.leftItems {
+    margin-top: 12px;
+    margin-left: 20px;
+    padding-top: 7px;
+}
+
+.leftItems > a {
+    margin-right: 15px;
+}
+
+.rightItem {
+    margin-top: 12px;
+    margin-right: 20px;
+    padding-top: 7px;
+}
+
+.rightItem > a {
+    margin-right: 15px;
+}
+
+
+
+
